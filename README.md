@@ -569,6 +569,49 @@ print(f"选择: 选项{out.choices[0].item() + 1}  置信度={out.confidences[0]
 
 ---
 
-## 十三、参考
+## 十三、自治训练技能 jevm-trainer-skill
+
+让 **AI Agent（Claude/ChatGPT 等）**直接调用仓库内的 `jevm-trainer-skill` 技能，即可为模型**自动出题→测试→反馈→触发训练**，形成持续自我改进闭环，无需人工参与。
+
+### 快速安装（二选一）
+
+**方式 A：直接下载 zip 包**
+
+下载 [`jevm-trainer-skill.zip`](jevm-trainer-skill.zip)，解压，将其作为 skill 供 AI Agent 调用。
+
+**方式 B：克隆仓库后使用目录**
+
+仓库内已含 `jevm-trainer-skill/` 目录（含 `SKILL.md` 与 `scripts/jmd_api.py`），Agent 直接按 skill 格式引用该目录即可。
+
+### 前置条件
+
+- 先启动 JEV+MDP Web 后端：`.\scripts\serve.ps1`（默认 `http://localhost:8000`）
+- 模型是逐动作打分架构的 RLCD-MDP 模型（`num_outcomes=2`，二元结果）
+
+### 支持的工作流
+
+| 工作流 | 说明 |
+|--------|------|
+| **单题训练** | 出 1 题 → 测试 → 反馈 → 训练 |
+| **批量课程** | 生成 N 道题 → 批量测试 → 批量反馈 → 触发训练 |
+| **对抗探测** | 用边界/反直觉场景探模型鲁棒性，训练前后对比 | 
+| **循环课程** | 多轮循环，对最弱领域密集出题，持续提升 |
+
+### Agent 调用示例
+
+Agent 会话中输入：
+
+```
+/jevm-trainer-skill Generate 3 medical diagnosis scenarios and train the model on them
+/jevm-trainer-skill --domain education --count 10 --cycles 3  Full curriculum training
+```
+
+技能会自动调用后端的 `/api/v1/predict`、`/api/v1/feedback`、`/api/v1/admin/training/trigger` 等接口，完成出题、评估、校正、训练的完整闭环。
+
+> 每次训练产出 `best_model.pt`，Web 后端会自动热替换为新模型，下一个 predict 立即生效。
+
+---
+
+## 十四、参考
 
 详细设计文档：`.trae/documents/jev-mdp-system-one-model-plan.md`
