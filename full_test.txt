@@ -1,0 +1,30 @@
+﻿============================= test session starts =============================
+collecting ... collected 25 items
+
+tests/test_calibration.py::TestCalibrationEvaluator::test_perfect_calibration PASSED [  4%]
+tests/test_calibration.py::TestCalibrationEvaluator::test_ece_zero_for_perfect PASSED [  8%]
+tests/test_calibration.py::TestReturnErrorEvaluator::test_perfect_prediction PASSED [ 12%]
+tests/test_calibration.py::TestReturnErrorEvaluator::test_optimal_action_correct PASSED [ 16%]
+tests/test_calibration.py::TestLosses::test_calibration_loss_kl PASSED   [ 20%]
+tests/test_calibration.py::TestLosses::test_calibration_loss_brier PASSED [ 24%]
+tests/test_calibration.py::TestLosses::test_q_value_loss_mse PASSED      [ 28%]
+tests/test_calibration.py::TestLosses::test_decision_loss PASSED         [ 32%]
+tests/test_mdp.py::TestMDP::test_mdp_initialization PASSED               [ 36%]
+tests/test_mdp.py::TestMDP::test_expected_return PASSED                  [ 40%]
+tests/test_mdp.py::TestBellmanOperator::test_bellman_iteration_convergence PASSED [ 44%]
+tests/test_mdp.py::TestBellmanOperator::test_value_iteration PASSED      [ 48%]
+tests/test_mdp.py::TestRewardFunction::test_sparse_reward PASSED         [ 52%]
+tests/test_mdp.py::TestTransitionEstimator::test_kl_divergence PASSED    [ 56%]
+tests/test_mdp.py::TestTransitionEstimator::test_brier_score PASSED      [ 60%]
+tests/test_mdp.py::TestTransitionEstimator::test_calibration PASSED      [ 64%]
+tests/test_mdp_head.py::TestMDPHead::test_initialization PASSED          [ 68%]
+tests/test_mdp_head.py::TestMDPHead::test_forward_shape PASSED           [ 72%]
+tests/test_mdp_head.py::TestMDPHead::test_bellman_steps PASSED           [ 76%]
+tests/test_model.py::TestSystemOneModel::test_model_initialization PASSED [ 80%]
+tests/test_model.py::TestSystemOneModel::test_forward_shape PASSED       [ 84%]
+tests/test_model.py::TestSystemOneModel::test_generate_compact_output PASSED [ 88%]
+tests/test_model.py::TestSystemOneModel::test_synthetic_data_integration PASSED [ 92%]
+tests/test_sampler.py::TestParallelSampler::test_sampler_initialization PASSED [ 96%]
+tests/test_sampler.py::TestParallelSampler::test_sample_output_shape PASSED [100%]
+
+============================= 25 passed in 3.22s ==============================

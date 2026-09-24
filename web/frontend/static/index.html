@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>域策 DomSense · 垂类决策引擎</title>
+    <!-- 粒子背景样式 -->
+    <link rel="stylesheet" href="/static/css/particles.css">
+    <!-- 主样式 -->
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <!-- 粒子背景容器 -->
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <!-- 顶栏：反馈进度 + 管理员入口 -->
+        <div class="topbar">
+            <div id="home-feedback-progress" class="feedback-progress">
+                <span class="progress-pill">反馈累计 <b id="home-accum">-</b>/<span id="home-threshold">50</span></span>
+            </div>
+            <a href="/admin" class="btn-cyber btn-sm admin-link">⚙ 管理后台</a>
+        </div>
+        <h1>域策 DomSense</h1>
+        <p class="subtitle">专注垂类决策的 MDP + 领域专家引擎</p>
+
+        <!-- 输入区 -->
+        <div class="card">
+            <div class="card-title">决策输入</div>
+            <div class="form-group">
+                <label for="state-text">决策场景</label>
+                <textarea id="state-text" rows="4" placeholder="描述你的决策场景..."></textarea>
+            </div>
+
+            <div class="options-header">
+                <span style="color:#00d4ff; font-size:13px; font-weight:500;">候选选项</span>
+                <button id="btn-add-option" class="btn-cyber btn-sm">+ 添加选项</button>
+            </div>
+            <div id="options-container">
+                <!-- 动态添加的选项卡片由 JS 渲染 -->
+            </div>
+        </div>
+
+        <!-- 按钮行（卡片外部） -->
+        <div class="button-row">
+            <button id="btn-predict" class="btn-cyber">生成决策</button>
+        </div>
+
+        <!-- 结果区（隐藏，生成后显示） -->
+        <div class="card hidden" id="result-card">
+            <div class="card-title">决策结果</div>
+            <div id="result-choice" class="result-choice"></div>
+            <div id="confidence-meter"></div>
+            <div id="result-probs"></div>
+            <div id="result-returns" class="result-returns"></div>
+        </div>
+
+        <!-- 反馈区（隐藏，结果后显示） -->
+        <div class="card hidden" id="feedback-card">
+            <div class="card-title">反馈：你认为哪个选项是正确答案？</div>
+            <div id="feedback-options">
+                <!-- 由 JS 渲染的选项点击选择 -->
+            </div>
+        </div>
+
+        <!-- 反馈按钮行（卡片外部） -->
+        <div class="button-row">
+            <button id="btn-feedback" class="btn-cyber btn-purple">提交反馈</button>
+            <button id="btn-reset" class="btn-cyber">清空</button>
+        </div>
+    </div>
+
+    <!-- 脚本 -->
+    <script src="/static/js/particles.min.js"></script>
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

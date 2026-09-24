@@ -1,0 +1,17 @@
+defaults:
+  - base
+
+training:
+  output_dir: "./outputs/rlcd_mdp_run1"
+  logging_steps: 10
+  eval_steps: 50
+  save_steps: 100
+  max_steps: 1000
+
+data:
+  num_synthetic_train: 5000
+  num_synthetic_val: 500
+  num_synthetic_test: 500
+
+model:
+  num_bellman_steps: 4

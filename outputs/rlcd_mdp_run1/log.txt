@@ -1,0 +1,478 @@
+[2026-09-23 16:40:23] INFO - jev_mdp - ==================================================
+[2026-09-23 16:40:23] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 16:40:23] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 16:40:23] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 16:40:23] INFO - jev_mdp - ==================================================
+[2026-09-23 16:40:23] INFO - jev_mdp - 初始化模型...
+[2026-09-23 16:41:58] INFO - jev_mdp - 总参数量: 2,923,282
+[2026-09-23 16:41:58] INFO - jev_mdp - 可训练参数量: 2,923,282
+[2026-09-23 16:41:58] INFO - jev_mdp - 构建数据...
+[2026-09-23 16:42:45] INFO - jev_mdp - ==================================================
+[2026-09-23 16:42:45] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 16:42:45] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 16:42:45] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 16:42:45] INFO - jev_mdp - ==================================================
+[2026-09-23 16:42:45] INFO - jev_mdp - 初始化模型...
+[2026-09-23 16:44:20] INFO - jev_mdp - 总参数量: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - 可训练参数量: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - 构建数据...
+[2026-09-23 16:44:20] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-23 16:44:20] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-23 16:44:20] INFO - jev_mdp - Total parameters: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - Trainable parameters: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - Validation loss: 31.4123
+[2026-09-23 16:44:21] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:21] INFO - jev_mdp - New best model! Val loss: 31.4123
+[2026-09-23 16:44:21] INFO - jev_mdp - Step 10/20 | Loss: 25.5591 | Calib: 0.1210 | Q: 24.5675 | Dec: 0.8707
+[2026-09-23 16:44:21] INFO - jev_mdp - Validation loss: 31.1459
+[2026-09-23 16:44:21] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:21] INFO - jev_mdp - New best model! Val loss: 31.1459
+[2026-09-23 16:44:22] INFO - jev_mdp - Validation loss: 30.9702
+[2026-09-23 16:44:22] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:22] INFO - jev_mdp - New best model! Val loss: 30.9702
+[2026-09-23 16:44:22] INFO - jev_mdp - Step 20/20 | Loss: 35.4540 | Calib: 0.1224 | Q: 34.4579 | Dec: 0.8738
+[2026-09-23 16:44:22] INFO - jev_mdp - Validation loss: 30.7099
+[2026-09-23 16:44:22] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:22] INFO - jev_mdp - New best model! Val loss: 30.7099
+[2026-09-23 16:44:22] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-23 16:44:22] INFO - jev_mdp - Training completed!
+[2026-09-23 16:44:22] INFO - jev_mdp - 训练完成！
+[2026-09-23 16:56:33] INFO - jev_mdp - ==================================================
+[2026-09-23 16:56:33] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 16:56:33] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 16:56:33] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 16:56:33] INFO - jev_mdp - ==================================================
+[2026-09-23 16:56:33] INFO - jev_mdp - 初始化模型...
+[2026-09-23 16:58:08] INFO - jev_mdp - 总参数量: 2,923,282
+[2026-09-23 16:58:08] INFO - jev_mdp - 可训练参数量: 2,923,282
+[2026-09-23 16:58:08] INFO - jev_mdp - 构建数据...
+[2026-09-23 16:58:08] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-23 16:58:08] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-23 16:58:08] INFO - jev_mdp - Total parameters: 2,923,282
+[2026-09-23 16:58:08] INFO - jev_mdp - Trainable parameters: 2,923,282
+[2026-09-23 16:58:08] INFO - jev_mdp - Validation loss: 30.6642
+[2026-09-23 16:58:09] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:58:09] INFO - jev_mdp - New best model! Val loss: 30.6642
+[2026-09-23 16:58:09] INFO - jev_mdp - Step 10/20 | Loss: 31.6058 | Calib: 0.1715 | Q: 30.6362 | Dec: 0.7981
+[2026-09-23 16:58:09] INFO - jev_mdp - Validation loss: 30.4035
+[2026-09-23 16:58:09] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:58:09] INFO - jev_mdp - New best model! Val loss: 30.4035
+[2026-09-23 16:58:10] INFO - jev_mdp - Validation loss: 30.2316
+[2026-09-23 16:58:10] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:58:10] INFO - jev_mdp - New best model! Val loss: 30.2316
+[2026-09-23 16:58:10] INFO - jev_mdp - Step 20/20 | Loss: 29.3325 | Calib: 0.1435 | Q: 28.3960 | Dec: 0.7930
+[2026-09-23 16:58:10] INFO - jev_mdp - Validation loss: 29.9776
+[2026-09-23 16:58:10] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:58:10] INFO - jev_mdp - New best model! Val loss: 29.9776
+[2026-09-23 16:58:10] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-23 16:58:10] INFO - jev_mdp - Training completed!
+[2026-09-23 16:58:10] INFO - jev_mdp - 训练完成！
+[2026-09-23 16:58:22] INFO - jev_mdp - ==================================================
+[2026-09-23 16:58:22] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 16:58:22] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 16:58:22] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 16:58:22] INFO - jev_mdp - ==================================================
+[2026-09-23 16:58:22] INFO - jev_mdp - 初始化模型...
+[2026-09-23 16:59:59] INFO - jev_mdp - 总参数量: 2,923,282
+[2026-09-23 16:59:59] INFO - jev_mdp - 可训练参数量: 2,923,282
+[2026-09-23 16:59:59] INFO - jev_mdp - 构建数据...
+[2026-09-23 16:59:59] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-23 16:59:59] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-23 16:59:59] INFO - jev_mdp - Total parameters: 2,923,282
+[2026-09-23 16:59:59] INFO - jev_mdp - Trainable parameters: 2,923,282
+[2026-09-23 16:59:59] INFO - jev_mdp - Validation loss: 29.7714
+[2026-09-23 16:59:59] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:59:59] INFO - jev_mdp - New best model! Val loss: 29.7714
+[2026-09-23 17:00:00] INFO - jev_mdp - Step 10/20 | Loss: 31.2072 | Calib: 0.1064 | Q: 30.1992 | Dec: 0.9016
+[2026-09-23 17:00:00] INFO - jev_mdp - Validation loss: 29.5051
+[2026-09-23 17:00:00] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:00:00] INFO - jev_mdp - New best model! Val loss: 29.5051
+[2026-09-23 17:00:00] INFO - jev_mdp - Validation loss: 29.3300
+[2026-09-23 17:00:00] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:00:00] INFO - jev_mdp - New best model! Val loss: 29.3300
+[2026-09-23 17:00:01] INFO - jev_mdp - Step 20/20 | Loss: 27.1833 | Calib: 0.1531 | Q: 26.0827 | Dec: 0.9475
+[2026-09-23 17:00:01] INFO - jev_mdp - Validation loss: 29.0698
+[2026-09-23 17:00:01] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:00:01] INFO - jev_mdp - New best model! Val loss: 29.0698
+[2026-09-23 17:00:01] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-23 17:00:01] INFO - jev_mdp - Training completed!
+[2026-09-23 17:00:01] INFO - jev_mdp - 训练完成！
+[2026-09-23 17:04:32] INFO - jev_mdp - ==================================================
+[2026-09-23 17:04:32] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 17:04:32] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 17:04:32] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 17:04:32] INFO - jev_mdp - ==================================================
+[2026-09-23 17:04:32] INFO - jev_mdp - 初始化模型...
+[2026-09-23 17:04:32] INFO - jev_mdp - 总参数量: 532,434
+[2026-09-23 17:04:32] INFO - jev_mdp - 可训练参数量: 532,434
+[2026-09-23 17:04:32] INFO - jev_mdp - 构建数据...
+[2026-09-23 17:04:32] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-23 17:06:01] INFO - jev_mdp - ==================================================
+[2026-09-23 17:06:01] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 17:06:01] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 17:06:01] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 17:06:01] INFO - jev_mdp - ==================================================
+[2026-09-23 17:06:01] INFO - jev_mdp - 初始化模型...
+[2026-09-23 17:06:01] INFO - jev_mdp - 总参数量: 532,434
+[2026-09-23 17:06:01] INFO - jev_mdp - 可训练参数量: 532,434
+[2026-09-23 17:06:01] INFO - jev_mdp - 构建数据...
+[2026-09-23 17:06:01] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-23 17:06:02] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-23 17:06:02] INFO - jev_mdp - Total parameters: 532,434
+[2026-09-23 17:06:02] INFO - jev_mdp - Trainable parameters: 532,434
+[2026-09-23 17:06:03] INFO - jev_mdp - Validation loss: 36.5312
+[2026-09-23 17:06:03] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:06:03] INFO - jev_mdp - New best model! Val loss: 36.5312
+[2026-09-23 17:06:04] INFO - jev_mdp - Step 10/20 | Loss: 27.7351 | Calib: 0.0921 | Q: 26.7973 | Dec: 0.8457
+[2026-09-23 17:06:04] INFO - jev_mdp - Validation loss: 36.4530
+[2026-09-23 17:06:04] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:06:04] INFO - jev_mdp - New best model! Val loss: 36.4530
+[2026-09-23 17:06:04] INFO - jev_mdp - Validation loss: 36.4017
+[2026-09-23 17:06:04] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:06:04] INFO - jev_mdp - New best model! Val loss: 36.4017
+[2026-09-23 17:06:05] INFO - jev_mdp - Step 20/20 | Loss: 33.8618 | Calib: 0.0974 | Q: 32.9377 | Dec: 0.8266
+[2026-09-23 17:06:05] INFO - jev_mdp - Validation loss: 36.3278
+[2026-09-23 17:06:05] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:06:05] INFO - jev_mdp - New best model! Val loss: 36.3278
+[2026-09-23 17:06:05] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-23 17:06:05] INFO - jev_mdp - Training completed!
+[2026-09-23 17:06:05] INFO - jev_mdp - 训练完成！
+[2026-09-23 17:29:29] INFO - jev_mdp - ==================================================
+[2026-09-23 17:29:29] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 17:29:29] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 17:29:29] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 17:29:29] INFO - jev_mdp - ==================================================
+[2026-09-23 17:29:29] INFO - jev_mdp - 初始化模型...
+[2026-09-23 17:29:29] INFO - jev_mdp - 总参数量: 532,434
+[2026-09-23 17:29:29] INFO - jev_mdp - 可训练参数量: 532,434
+[2026-09-23 17:29:29] INFO - jev_mdp - 构建数据...
+[2026-09-23 17:29:29] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-23 17:29:31] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-23 17:29:31] INFO - jev_mdp - Total parameters: 532,434
+[2026-09-23 17:29:31] INFO - jev_mdp - Trainable parameters: 532,434
+[2026-09-23 17:29:32] INFO - jev_mdp - Validation loss: 31.0700
+[2026-09-23 17:29:32] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:29:32] INFO - jev_mdp - New best model! Val loss: 31.0700
+[2026-09-23 17:29:32] INFO - jev_mdp - Step 10/20 | Loss: 31.9186 | Calib: 0.1766 | Q: 30.8502 | Dec: 0.8917
+[2026-09-23 17:29:32] INFO - jev_mdp - Validation loss: 30.9975
+[2026-09-23 17:29:32] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:29:32] INFO - jev_mdp - New best model! Val loss: 30.9975
+[2026-09-23 17:29:33] INFO - jev_mdp - Validation loss: 30.9500
+[2026-09-23 17:29:33] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:29:33] INFO - jev_mdp - New best model! Val loss: 30.9500
+[2026-09-23 17:29:33] INFO - jev_mdp - Step 20/20 | Loss: 25.6761 | Calib: 0.1213 | Q: 24.5617 | Dec: 0.9931
+[2026-09-23 17:29:33] INFO - jev_mdp - Validation loss: 30.8807
+[2026-09-23 17:29:33] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 17:29:33] INFO - jev_mdp - New best model! Val loss: 30.8807
+[2026-09-23 17:29:33] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-23 17:29:33] INFO - jev_mdp - Training completed!
+[2026-09-23 17:29:33] INFO - jev_mdp - 训练完成！
+[2026-09-24 11:05:37] INFO - jev_mdp - ==================================================
+[2026-09-24 11:05:37] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 11:05:37] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 11:05:37] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 11:05:37] INFO - jev_mdp - ==================================================
+[2026-09-24 11:05:37] INFO - jev_mdp - 初始化模型...
+[2026-09-24 11:05:37] INFO - jev_mdp - 总参数量: 598,738
+[2026-09-24 11:05:37] INFO - jev_mdp - 可训练参数量: 598,738
+[2026-09-24 11:05:37] INFO - jev_mdp - 构建数据...
+[2026-09-24 11:05:37] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 11:05:39] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 11:05:39] INFO - jev_mdp - Total parameters: 598,738
+[2026-09-24 11:05:39] INFO - jev_mdp - Trainable parameters: 598,738
+[2026-09-24 11:05:48] INFO - jev_mdp - ==================================================
+[2026-09-24 11:05:48] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 11:05:48] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 11:05:48] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 11:05:48] INFO - jev_mdp - ==================================================
+[2026-09-24 11:05:48] INFO - jev_mdp - 初始化模型...
+[2026-09-24 11:05:48] INFO - jev_mdp - 总参数量: 598,738
+[2026-09-24 11:05:48] INFO - jev_mdp - 可训练参数量: 598,738
+[2026-09-24 11:05:48] INFO - jev_mdp - 构建数据...
+[2026-09-24 11:05:48] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 11:05:50] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 11:05:50] INFO - jev_mdp - Total parameters: 598,738
+[2026-09-24 11:05:50] INFO - jev_mdp - Trainable parameters: 598,738
+[2026-09-24 11:05:51] INFO - jev_mdp - Validation loss: 34.9053
+[2026-09-24 11:05:51] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:05:51] INFO - jev_mdp - New best model! Val loss: 34.9053
+[2026-09-24 11:05:52] INFO - jev_mdp - Step 10/20 | Loss: 27.9019 | Calib: 0.1147 | Q: 26.7939 | Dec: 0.9933
+[2026-09-24 11:05:52] INFO - jev_mdp - Validation loss: 34.8251
+[2026-09-24 11:05:52] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:05:52] INFO - jev_mdp - New best model! Val loss: 34.8251
+[2026-09-24 11:05:54] INFO - jev_mdp - Validation loss: 34.7726
+[2026-09-24 11:05:54] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:05:54] INFO - jev_mdp - New best model! Val loss: 34.7726
+[2026-09-24 11:05:55] INFO - jev_mdp - Step 20/20 | Loss: 25.2216 | Calib: 0.1089 | Q: 24.1878 | Dec: 0.9249
+[2026-09-24 11:05:55] INFO - jev_mdp - Validation loss: 34.6956
+[2026-09-24 11:05:55] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:05:55] INFO - jev_mdp - New best model! Val loss: 34.6956
+[2026-09-24 11:05:55] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 11:05:55] INFO - jev_mdp - Training completed!
+[2026-09-24 11:05:55] INFO - jev_mdp - 训练完成！
+[2026-09-24 11:14:46] INFO - jev_mdp - ==================================================
+[2026-09-24 11:14:46] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 11:14:46] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 11:14:46] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 11:14:46] INFO - jev_mdp - ==================================================
+[2026-09-24 11:14:46] INFO - jev_mdp - 初始化模型...
+[2026-09-24 11:14:46] INFO - jev_mdp - 总参数量: 598,738
+[2026-09-24 11:14:46] INFO - jev_mdp - 可训练参数量: 598,738
+[2026-09-24 11:14:46] INFO - jev_mdp - 构建数据...
+[2026-09-24 11:14:46] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 11:14:47] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 11:14:47] INFO - jev_mdp - Total parameters: 598,738
+[2026-09-24 11:14:47] INFO - jev_mdp - Trainable parameters: 598,738
+[2026-09-24 11:14:49] INFO - jev_mdp - Validation loss: 34.7432
+[2026-09-24 11:14:49] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:14:49] INFO - jev_mdp - New best model! Val loss: 34.7432
+[2026-09-24 11:14:51] INFO - jev_mdp - Step 10/20 | Loss: 32.6460 | Calib: 0.1235 | Q: 31.6694 | Dec: 0.8531
+[2026-09-24 11:14:51] INFO - jev_mdp - Validation loss: 33.4518
+[2026-09-24 11:14:51] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:14:51] INFO - jev_mdp - New best model! Val loss: 33.4518
+[2026-09-24 11:14:52] INFO - jev_mdp - Validation loss: 32.6941
+[2026-09-24 11:14:52] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:14:52] INFO - jev_mdp - New best model! Val loss: 32.6941
+[2026-09-24 11:14:54] INFO - jev_mdp - Step 20/20 | Loss: 30.3224 | Calib: 0.1216 | Q: 29.2819 | Dec: 0.9189
+[2026-09-24 11:14:54] INFO - jev_mdp - Validation loss: 31.6897
+[2026-09-24 11:14:54] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:14:54] INFO - jev_mdp - New best model! Val loss: 31.6897
+[2026-09-24 11:14:54] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 11:14:54] INFO - jev_mdp - Training completed!
+[2026-09-24 11:14:54] INFO - jev_mdp - 训练完成！
+[2026-09-24 11:21:30] INFO - jev_mdp - ==================================================
+[2026-09-24 11:21:30] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 11:21:30] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 11:21:30] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 11:21:30] INFO - jev_mdp - ==================================================
+[2026-09-24 11:21:30] INFO - jev_mdp - 初始化模型...
+[2026-09-24 11:21:30] INFO - jev_mdp - 总参数量: 598,738
+[2026-09-24 11:21:30] INFO - jev_mdp - 可训练参数量: 598,738
+[2026-09-24 11:21:30] INFO - jev_mdp - 构建数据...
+[2026-09-24 11:21:30] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 11:21:31] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 11:21:31] INFO - jev_mdp - Total parameters: 598,738
+[2026-09-24 11:21:31] INFO - jev_mdp - Trainable parameters: 598,738
+[2026-09-24 11:21:33] INFO - jev_mdp - Validation loss: 32.1755
+[2026-09-24 11:21:33] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:21:33] INFO - jev_mdp - New best model! Val loss: 32.1755
+[2026-09-24 11:21:35] INFO - jev_mdp - Step 10/20 | Loss: 23.2988 | Calib: 0.1130 | Q: 22.2903 | Dec: 0.8955
+[2026-09-24 11:21:35] INFO - jev_mdp - Validation loss: 30.5242
+[2026-09-24 11:21:35] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:21:35] INFO - jev_mdp - New best model! Val loss: 30.5242
+[2026-09-24 11:21:36] INFO - jev_mdp - Validation loss: 29.5282
+[2026-09-24 11:21:36] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:21:36] INFO - jev_mdp - New best model! Val loss: 29.5282
+[2026-09-24 11:21:38] INFO - jev_mdp - Step 20/20 | Loss: 23.8546 | Calib: 0.1105 | Q: 22.8171 | Dec: 0.9270
+[2026-09-24 11:21:38] INFO - jev_mdp - Validation loss: 28.1821
+[2026-09-24 11:21:38] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:21:38] INFO - jev_mdp - New best model! Val loss: 28.1821
+[2026-09-24 11:21:38] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 11:21:38] INFO - jev_mdp - Training completed!
+[2026-09-24 11:21:38] INFO - jev_mdp - 训练完成！
+[2026-09-24 11:57:59] INFO - jev_mdp - ==================================================
+[2026-09-24 11:57:59] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 11:57:59] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 11:57:59] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 11:57:59] INFO - jev_mdp - ==================================================
+[2026-09-24 11:57:59] INFO - jev_mdp - 初始化模型...
+[2026-09-24 11:58:00] INFO - jev_mdp - 总参数量: 704,650
+[2026-09-24 11:58:00] INFO - jev_mdp - 可训练参数量: 704,650
+[2026-09-24 11:58:00] INFO - jev_mdp - 构建数据...
+[2026-09-24 11:58:00] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 11:58:01] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 11:58:01] INFO - jev_mdp - Total parameters: 704,650
+[2026-09-24 11:58:01] INFO - jev_mdp - Trainable parameters: 704,650
+[2026-09-24 11:58:03] INFO - jev_mdp - Validation loss: 33.4824
+[2026-09-24 11:58:03] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:03] INFO - jev_mdp - New best model! Val loss: 33.4824
+[2026-09-24 11:58:05] INFO - jev_mdp - Step 10/20 | Loss: 23.4469 | Calib: 0.1039 | Q: 22.3944 | Dec: 0.9486
+[2026-09-24 11:58:05] INFO - jev_mdp - Validation loss: 31.2362
+[2026-09-24 11:58:05] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:05] INFO - jev_mdp - New best model! Val loss: 31.2362
+[2026-09-24 11:58:07] INFO - jev_mdp - Validation loss: 29.9181
+[2026-09-24 11:58:07] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:07] INFO - jev_mdp - New best model! Val loss: 29.9181
+[2026-09-24 11:58:09] INFO - jev_mdp - Step 20/20 | Loss: 22.1122 | Calib: 0.1545 | Q: 21.0855 | Dec: 0.8722
+[2026-09-24 11:58:09] INFO - jev_mdp - Validation loss: 28.2092
+[2026-09-24 11:58:09] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:09] INFO - jev_mdp - New best model! Val loss: 28.2092
+[2026-09-24 11:58:09] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 11:58:09] INFO - jev_mdp - Training completed!
+[2026-09-24 11:58:09] INFO - jev_mdp - 训练完成！
+[2026-09-24 11:58:19] INFO - jev_mdp - ==================================================
+[2026-09-24 11:58:19] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 11:58:19] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 11:58:19] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 11:58:19] INFO - jev_mdp - ==================================================
+[2026-09-24 11:58:19] INFO - jev_mdp - 初始化模型...
+[2026-09-24 11:58:19] INFO - jev_mdp - 总参数量: 704,650
+[2026-09-24 11:58:19] INFO - jev_mdp - 可训练参数量: 704,650
+[2026-09-24 11:58:19] INFO - jev_mdp - 构建数据...
+[2026-09-24 11:58:19] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 11:58:21] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 11:58:21] INFO - jev_mdp - Total parameters: 704,650
+[2026-09-24 11:58:21] INFO - jev_mdp - Trainable parameters: 704,650
+[2026-09-24 11:58:23] INFO - jev_mdp - Validation loss: 33.3462
+[2026-09-24 11:58:23] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:23] INFO - jev_mdp - New best model! Val loss: 33.3462
+[2026-09-24 11:58:24] INFO - jev_mdp - Step 10/20 | Loss: 31.8943 | Calib: 0.1402 | Q: 30.8576 | Dec: 0.8966
+[2026-09-24 11:58:24] INFO - jev_mdp - Validation loss: 31.4576
+[2026-09-24 11:58:24] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:24] INFO - jev_mdp - New best model! Val loss: 31.4576
+[2026-09-24 11:58:26] INFO - jev_mdp - Validation loss: 30.2958
+[2026-09-24 11:58:26] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:26] INFO - jev_mdp - New best model! Val loss: 30.2958
+[2026-09-24 11:58:28] INFO - jev_mdp - Step 20/20 | Loss: 34.8355 | Calib: 0.1760 | Q: 33.8685 | Dec: 0.7909
+[2026-09-24 11:58:28] INFO - jev_mdp - Validation loss: 28.7036
+[2026-09-24 11:58:28] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 11:58:28] INFO - jev_mdp - New best model! Val loss: 28.7036
+[2026-09-24 11:58:28] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 11:58:28] INFO - jev_mdp - Training completed!
+[2026-09-24 11:58:28] INFO - jev_mdp - 训练完成！
+[2026-09-24 15:34:52] INFO - jev_mdp - ==================================================
+[2026-09-24 15:34:52] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 15:34:52] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 15:34:52] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 15:34:52] INFO - jev_mdp - ==================================================
+[2026-09-24 15:34:52] INFO - jev_mdp - 初始化模型...
+[2026-09-24 15:34:52] INFO - jev_mdp - 总参数量: 1,110,803
+[2026-09-24 15:34:52] INFO - jev_mdp - 可训练参数量: 1,110,803
+[2026-09-24 15:34:52] INFO - jev_mdp - 构建数据...
+[2026-09-24 15:34:52] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 15:34:53] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 15:34:53] INFO - jev_mdp - Total parameters: 1,110,803
+[2026-09-24 15:34:53] INFO - jev_mdp - Trainable parameters: 1,110,803
+[2026-09-24 15:35:03] INFO - jev_mdp - ==================================================
+[2026-09-24 15:35:03] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 15:35:03] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 15:35:03] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 15:35:03] INFO - jev_mdp - ==================================================
+[2026-09-24 15:35:03] INFO - jev_mdp - 初始化模型...
+[2026-09-24 15:35:03] INFO - jev_mdp - 总参数量: 1,110,803
+[2026-09-24 15:35:03] INFO - jev_mdp - 可训练参数量: 1,110,803
+[2026-09-24 15:35:03] INFO - jev_mdp - 构建数据...
+[2026-09-24 15:35:03] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 15:35:05] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 15:35:05] INFO - jev_mdp - Total parameters: 1,110,803
+[2026-09-24 15:35:05] INFO - jev_mdp - Trainable parameters: 1,110,803
+[2026-09-24 15:36:02] INFO - jev_mdp - ==================================================
+[2026-09-24 15:36:02] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 15:36:02] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 15:36:02] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 15:36:02] INFO - jev_mdp - ==================================================
+[2026-09-24 15:36:02] INFO - jev_mdp - 初始化模型...
+[2026-09-24 15:36:02] INFO - jev_mdp - 总参数量: 1,110,803
+[2026-09-24 15:36:02] INFO - jev_mdp - 可训练参数量: 1,110,803
+[2026-09-24 15:36:02] INFO - jev_mdp - 构建数据...
+[2026-09-24 15:36:02] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 15:36:03] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 15:36:03] INFO - jev_mdp - Total parameters: 1,110,803
+[2026-09-24 15:36:03] INFO - jev_mdp - Trainable parameters: 1,110,803
+[2026-09-24 15:36:05] INFO - jev_mdp - Validation loss: 32.2427
+[2026-09-24 15:36:05] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:05] INFO - jev_mdp - New best model! Val loss: 32.2427
+[2026-09-24 15:36:07] INFO - jev_mdp - Step 10/20 | Loss: 25.3934 | Calib: 0.1301 | Q: 24.3131 | Dec: 0.9502
+[2026-09-24 15:36:07] INFO - jev_mdp - Validation loss: 30.0346
+[2026-09-24 15:36:07] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:07] INFO - jev_mdp - New best model! Val loss: 30.0346
+[2026-09-24 15:36:09] INFO - jev_mdp - Validation loss: 28.6645
+[2026-09-24 15:36:09] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:09] INFO - jev_mdp - New best model! Val loss: 28.6645
+[2026-09-24 15:36:10] INFO - jev_mdp - Step 20/20 | Loss: 25.1863 | Calib: 0.1220 | Q: 24.2184 | Dec: 0.8459
+[2026-09-24 15:36:11] INFO - jev_mdp - Validation loss: 26.7671
+[2026-09-24 15:36:11] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:11] INFO - jev_mdp - New best model! Val loss: 26.7671
+[2026-09-24 15:36:11] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 15:36:11] INFO - jev_mdp - Training completed!
+[2026-09-24 15:36:11] INFO - jev_mdp - 训练完成！
+[2026-09-24 15:36:18] INFO - jev_mdp - ==================================================
+[2026-09-24 15:36:18] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 15:36:18] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 15:36:18] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 15:36:18] INFO - jev_mdp - ==================================================
+[2026-09-24 15:36:18] INFO - jev_mdp - 初始化模型...
+[2026-09-24 15:36:18] INFO - jev_mdp - 总参数量: 1,110,803
+[2026-09-24 15:36:18] INFO - jev_mdp - 可训练参数量: 1,110,803
+[2026-09-24 15:36:18] INFO - jev_mdp - 构建数据...
+[2026-09-24 15:36:18] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 15:36:19] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 15:36:19] INFO - jev_mdp - Total parameters: 1,110,803
+[2026-09-24 15:36:19] INFO - jev_mdp - Trainable parameters: 1,110,803
+[2026-09-24 15:36:21] INFO - jev_mdp - Validation loss: 31.5961
+[2026-09-24 15:36:21] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:21] INFO - jev_mdp - New best model! Val loss: 31.5961
+[2026-09-24 15:36:23] INFO - jev_mdp - Step 10/20 | Loss: 33.4494 | Calib: 0.1224 | Q: 32.3523 | Dec: 0.9747
+[2026-09-24 15:36:23] INFO - jev_mdp - Validation loss: 28.9330
+[2026-09-24 15:36:23] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:23] INFO - jev_mdp - New best model! Val loss: 28.9330
+[2026-09-24 15:36:25] INFO - jev_mdp - Validation loss: 27.3511
+[2026-09-24 15:36:25] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:25] INFO - jev_mdp - New best model! Val loss: 27.3511
+[2026-09-24 15:36:27] INFO - jev_mdp - Step 20/20 | Loss: 23.5514 | Calib: 0.1234 | Q: 22.4799 | Dec: 0.9480
+[2026-09-24 15:36:27] INFO - jev_mdp - Validation loss: 25.2665
+[2026-09-24 15:36:27] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:36:27] INFO - jev_mdp - New best model! Val loss: 25.2665
+[2026-09-24 15:36:27] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 15:36:27] INFO - jev_mdp - Training completed!
+[2026-09-24 15:36:27] INFO - jev_mdp - 训练完成！
+[2026-09-24 15:50:38] INFO - jev_mdp - ==================================================
+[2026-09-24 15:50:38] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 15:50:38] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 15:50:38] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 15:50:38] INFO - jev_mdp - ==================================================
+[2026-09-24 15:50:38] INFO - jev_mdp - 初始化模型...
+[2026-09-24 15:50:38] INFO - jev_mdp - 总参数量: 1,110,803
+[2026-09-24 15:50:38] INFO - jev_mdp - 可训练参数量: 1,110,803
+[2026-09-24 15:50:38] INFO - jev_mdp - 构建数据...
+[2026-09-24 15:50:38] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 15:50:39] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 15:50:39] INFO - jev_mdp - Total parameters: 1,110,803
+[2026-09-24 15:50:39] INFO - jev_mdp - Trainable parameters: 1,110,803
+[2026-09-24 15:50:41] INFO - jev_mdp - Validation loss: 32.4859
+[2026-09-24 15:50:41] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:50:41] INFO - jev_mdp - New best model! Val loss: 32.4859
+[2026-09-24 15:50:43] INFO - jev_mdp - Step 10/20 | Loss: 36.7610 | Calib: 0.1099 | Q: 35.7853 | Dec: 0.8658
+[2026-09-24 15:50:43] INFO - jev_mdp - Validation loss: 30.4259
+[2026-09-24 15:50:43] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:50:43] INFO - jev_mdp - New best model! Val loss: 30.4259
+[2026-09-24 15:50:46] INFO - jev_mdp - Validation loss: 29.2904
+[2026-09-24 15:50:46] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:50:46] INFO - jev_mdp - New best model! Val loss: 29.2904
+[2026-09-24 15:50:48] INFO - jev_mdp - Step 20/20 | Loss: 29.3186 | Calib: 0.1363 | Q: 28.1857 | Dec: 0.9966
+[2026-09-24 15:50:48] INFO - jev_mdp - Validation loss: 27.8525
+[2026-09-24 15:50:48] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:50:48] INFO - jev_mdp - New best model! Val loss: 27.8525
+[2026-09-24 15:50:48] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 15:50:48] INFO - jev_mdp - Training completed!
+[2026-09-24 15:50:48] INFO - jev_mdp - 训练完成！
+[2026-09-24 15:50:56] INFO - jev_mdp - ==================================================
+[2026-09-24 15:50:56] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-24 15:50:56] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-24 15:50:56] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-24 15:50:56] INFO - jev_mdp - ==================================================
+[2026-09-24 15:50:56] INFO - jev_mdp - 初始化模型...
+[2026-09-24 15:50:56] INFO - jev_mdp - 总参数量: 1,110,803
+[2026-09-24 15:50:56] INFO - jev_mdp - 可训练参数量: 1,110,803
+[2026-09-24 15:50:56] INFO - jev_mdp - 构建数据...
+[2026-09-24 15:50:56] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-24 15:50:58] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-24 15:50:58] INFO - jev_mdp - Total parameters: 1,110,803
+[2026-09-24 15:50:58] INFO - jev_mdp - Trainable parameters: 1,110,803
+[2026-09-24 15:51:00] INFO - jev_mdp - Validation loss: 30.6708
+[2026-09-24 15:51:00] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:51:00] INFO - jev_mdp - New best model! Val loss: 30.6708
+[2026-09-24 15:51:02] INFO - jev_mdp - Step 10/20 | Loss: 25.8686 | Calib: 0.1686 | Q: 24.8534 | Dec: 0.8467
+[2026-09-24 15:51:03] INFO - jev_mdp - Validation loss: 28.8085
+[2026-09-24 15:51:03] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:51:03] INFO - jev_mdp - New best model! Val loss: 28.8085
+[2026-09-24 15:51:05] INFO - jev_mdp - Validation loss: 27.7173
+[2026-09-24 15:51:05] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:51:05] INFO - jev_mdp - New best model! Val loss: 27.7173
+[2026-09-24 15:51:07] INFO - jev_mdp - Step 20/20 | Loss: 23.7367 | Calib: 0.1173 | Q: 22.7954 | Dec: 0.8240
+[2026-09-24 15:51:07] INFO - jev_mdp - Validation loss: 26.2816
+[2026-09-24 15:51:07] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-24 15:51:07] INFO - jev_mdp - New best model! Val loss: 26.2816
+[2026-09-24 15:51:07] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-24 15:51:07] INFO - jev_mdp - Training completed!
+[2026-09-24 15:51:07] INFO - jev_mdp - 训练完成！

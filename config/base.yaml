@@ -1,0 +1,54 @@
+model:
+  encoder_name: "distilbert-base-uncased"
+  encoder_freeze: true
+  use_lora: true
+  lora_r: 8
+  lora_alpha: 16
+  lora_dropout: 0.1
+  hidden_dim: 128
+  mdp_hidden_dim: 64
+  num_bellman_steps: 4
+  num_outcomes: 2
+  num_actions: 3
+  max_actions: 6
+  dropout: 0.1
+  hf_offline: true
+  use_cross_attention: true
+  cross_attn_heads: 4
+  use_domain_experts: true
+  domains:
+    - 医疗
+    - 金融
+    - 法律
+    - 教育
+    - 科技
+    - 职场
+    - 生活
+    - 情感
+  domain_expert_hidden: 128
+  domain_gate_hidden: 128
+
+training:
+  batch_size: 16
+  learning_rate: 0.00005
+  weight_decay: 0.01
+  max_epochs: 50
+  gradient_accumulation_steps: 2
+  warmup_steps: 100
+  eval_every: 5
+  save_every: 10
+
+loss:
+  calib_weight: 1.0
+  q_value_weight: 1.0
+  decision_weight: 1.0
+
+data:
+  num_synthetic_train: 5000
+  num_synthetic_val: 500
+  num_synthetic_test: 500
+  max_outcomes: 2
+  max_actions: 3
+
+eval:
+  num_bins: 10

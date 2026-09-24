@@ -1,0 +1,32 @@
+﻿[2026-09-23 16:42:45] INFO - jev_mdp - ==================================================
+[2026-09-23 16:42:45] INFO - jev_mdp - RLCD-MDP 训练开始
+[2026-09-23 16:42:45] INFO - jev_mdp - 模型编码器: distilbert-base-uncased
+[2026-09-23 16:42:45] INFO - jev_mdp - Bellman 迭代步数: 4
+[2026-09-23 16:42:45] INFO - jev_mdp - ==================================================
+[2026-09-23 16:42:45] INFO - jev_mdp - 初始化模型...
+[Encoder] Failed to load pretrained model 'distilbert-base-uncased': [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[Encoder] Falling back to lightweight local encoder (offline mode).
+[2026-09-23 16:44:20] INFO - jev_mdp - 总参数量: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - 可训练参数量: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - 构建数据...
+[2026-09-23 16:44:20] INFO - jev_mdp - 训练集: 200 样本, 验证集: 50 样本, 测试集: 50 样本
+[2026-09-23 16:44:20] INFO - jev_mdp - Starting RLCD-MDP training...
+[2026-09-23 16:44:20] INFO - jev_mdp - Total parameters: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - Trainable parameters: 2,923,282
+[2026-09-23 16:44:20] INFO - jev_mdp - Validation loss: 31.4123
+[2026-09-23 16:44:21] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:21] INFO - jev_mdp - New best model! Val loss: 31.4123
+[2026-09-23 16:44:21] INFO - jev_mdp - Step 10/20 | Loss: 25.5591 | Calib: 0.1210 | Q: 24.5675 | Dec: 0.8707
+[2026-09-23 16:44:21] INFO - jev_mdp - Validation loss: 31.1459
+[2026-09-23 16:44:21] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:21] INFO - jev_mdp - New best model! Val loss: 31.1459
+[2026-09-23 16:44:22] INFO - jev_mdp - Validation loss: 30.9702
+[2026-09-23 16:44:22] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:22] INFO - jev_mdp - New best model! Val loss: 30.9702
+[2026-09-23 16:44:22] INFO - jev_mdp - Step 20/20 | Loss: 35.4540 | Calib: 0.1224 | Q: 34.4579 | Dec: 0.8738
+[2026-09-23 16:44:22] INFO - jev_mdp - Validation loss: 30.7099
+[2026-09-23 16:44:22] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\best_model.pt
+[2026-09-23 16:44:22] INFO - jev_mdp - New best model! Val loss: 30.7099
+[2026-09-23 16:44:22] INFO - jev_mdp - Checkpoint saved: outputs\rlcd_mdp_run1\final_model.pt
+[2026-09-23 16:44:22] INFO - jev_mdp - Training completed!
+[2026-09-23 16:44:22] INFO - jev_mdp - 训练完成！

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标注指南 · 域策 DomSense</title>
+    <!-- 粒子背景样式 -->
+    <link rel="stylesheet" href="/static/css/particles.css">
+    <!-- 主样式 -->
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <!-- 粒子背景容器 -->
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <h1>标注指南</h1>
+        <p class="subtitle">如何为决策模型提供标注数据</p>
+
+        <!-- CSV 字段说明 -->
+        <div class="card">
+            <div class="card-title">CSV 字段说明</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>字段</th>
+                        <th>类型</th>
+                        <th>必填</th>
+                        <th>格式</th>
+                        <th>示例</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>state_text</td>
+                        <td>str</td>
+                        <td>是</td>
+                        <td>自然语言文本</td>
+                        <td>"选择技术方案"</td>
+                    </tr>
+                    <tr>
+                        <td>actions</td>
+                        <td>str</td>
+                        <td>是</td>
+                        <td>竖线 | 分隔</td>
+                        <td>"保守|激进|均衡"</td>
+                    </tr>
+                    <tr>
+                        <td>optimal_action</td>
+                        <td>int</td>
+                        <td>是</td>
+                        <td>0-based 索引</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>transition_probs</td>
+                        <td>str</td>
+                        <td>是</td>
+                        <td>动作间 | 分隔，动作内逗号分隔</td>
+                        <td>"0.7,0.3|0.4,0.6|0.2,0.8"</td>
+                    </tr>
+                    <tr>
+                        <td>expected_returns</td>
+                        <td>str</td>
+                        <td>是</td>
+                        <td>逗号分隔</td>
+                        <td>"5.5,3.2,7.8"</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- CSV 完整示例 -->
+        <div class="card">
+            <div class="card-title">CSV 完整示例</div>
+            <pre><code>state_text,actions,optimal_action,transition_probs,expected_returns
+"用户需要选择最佳的方案来处理技术选型。当前选项：1. 保守策略；2. 激进策略；3. 均衡策略","保守策略|激进策略|均衡策略",0,"0.7,0.3|0.4,0.6|0.2,0.8","5.5,3.2,7.8"
+"基于市场竞争分析，应选择最佳投资策略","保守投资|激进投资|均衡投资",2,"0.5,0.5|0.3,0.7|0.6,0.4","4.0,6.5,5.2"
+"投资者需要配置资产组合，选择最优方案","集中配置|分散配置|对冲配置",1,"0.6,0.4|0.2,0.8|0.5,0.5","3.5,7.1,5.0"</code></pre>
+        </div>
+
+        <!-- 流程说明 -->
+        <div class="card">
+            <div class="card-title">流程说明</div>
+            <div class="flow-step">
+                <div class="flow-number">1</div>
+                <div class="flow-content">用户输入决策场景 → 模型预测最优选项及概率分布</div>
+            </div>
+            <div class="flow-step">
+                <div class="flow-number">2</div>
+                <div class="flow-content">用户发现结果有误 → 提交反馈（标注正确选项）</div>
+            </div>
+            <div class="flow-step">
+                <div class="flow-number">3</div>
+                <div class="flow-content">反馈积累到 50 条 → 自动触发模型微调</div>
+            </div>
+            <div class="flow-step">
+                <div class="flow-number">4</div>
+                <div class="flow-content">模型热更新 → 下次预测使用新模型</div>
+            </div>
+        </div>
+
+        <!-- 下载按钮行 -->
+        <div class="button-row">
+            <a href="/api/v1/template/annotation.csv" download class="btn-cyber">下载 CSV 模板</a>
+        </div>
+    </div>
+
+    <!-- 脚本 -->
+    <script src="/static/js/particles.min.js"></script>
+    <script>
+        // 标注指南页只需初始化粒子背景
+        document.addEventListener('DOMContentLoaded', function () {
+            if (window.Particles) {
+                Particles.init('#particles-js', {
+                    color: '#00d4ff',
+                    count: 80,
+                    maxDistance: 130,
+                    speed: 0.5
+                });
+            }
+        });
+    </script>
+</body>
+</html>

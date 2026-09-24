@@ -1,0 +1,24 @@
+﻿[2026-09-23 16:44:59] INFO - jev_mdp - ==================================================
+[2026-09-23 16:44:59] INFO - jev_mdp - RLCD-MDP 评测
+[2026-09-23 16:44:59] INFO - jev_mdp - ==================================================
+[2026-09-23 16:44:59] INFO - jev_mdp - 初始化模型...
+[Encoder] Failed to load pretrained model 'distilbert-base-uncased': [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[Encoder] Falling back to lightweight local encoder (offline mode).
+[2026-09-23 16:46:33] INFO - jev_mdp - 加载检查点: outputs/rlcd_mdp_run1/best_model.pt
+[2026-09-23 16:46:33] INFO - jev_mdp - 构建测试数据...
+[2026-09-23 16:46:33] INFO - jev_mdp - 测试集: 50 样本
+
+=== 校准指标 ===
+  ece: 0.0255
+  mce: 0.0255
+  accuracy: 0.3200
+  n_samples: 50
+
+=== 回报预测误差 ===
+  mae: 4.7973
+  rmse: 5.2340
+  optimal_action_error_rate: 0.7344
+
+=== 延迟评估 ===
+  平均延迟 (10条): 10.34 ms
+[2026-09-23 16:46:34] INFO - jev_mdp - 评测完成！

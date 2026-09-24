@@ -1,0 +1,11 @@
+﻿============================= test session starts =============================
+collecting ... collected 6 items
+
+tests/test_model.py::TestSystemOneModel::test_model_initialization PASSED [ 16%]
+tests/test_model.py::TestSystemOneModel::test_forward_shape PASSED       [ 33%]
+tests/test_model.py::TestSystemOneModel::test_generate_compact_output PASSED [ 50%]
+tests/test_model.py::TestSystemOneModel::test_synthetic_data_integration PASSED [ 66%]
+tests/test_sampler.py::TestParallelSampler::test_sampler_initialization PASSED [ 83%]
+tests/test_sampler.py::TestParallelSampler::test_sample_output_shape PASSED [100%]
+
+============================== 6 passed in 3.33s ==============================
