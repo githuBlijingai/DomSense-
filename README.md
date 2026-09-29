@@ -278,7 +278,7 @@ q_summary(a) = max_o qᴷ(a, o)      # (N, n)
 ```
 
 > 教科书 Bellman：`Q*(s,a) = R(s,a) + γ·Σ P(s'|s,a)·max_{a'} Q(s',a')`。
-> 我们用 `MLP_B` 直接学这个更新，**不展开状态树**，4 步前向搞定。
+> 我们用 `MLP_B` 直接学这个更新，**不展开状态树**，8 步前向搞定。
 
 ### 4.5 决策头族：逐动作打分器
 
@@ -433,7 +433,7 @@ print(r.json()["choice_probs"])   # ← 门控权重与医疗场景不同，自�
 |--------|------|--------|
 | `hidden_dim` | 隐藏维度 | 128 |
 | `mdp_hidden_dim` | MLP 隐藏层维度 | 64 |
-| `num_bellman_steps` | Bellman 迭代步数 | 4 |
+| `num_bellman_steps` | Bellman 迭代步数 | 8 |
 | `num_outcomes` | 结局数 | 2 |
 | `max_actions` | 最大动作数（运行时 n ≤ max_actions） | 6 |
 | `use_cross_attention` | 启用选项交叉注意力 | true |
